@@ -49,6 +49,26 @@ body {
   margin: 30px 0;
 }
 
+/*.container div {
+
+}*/
+
+.container section {
+  height: 460px;
+  width: 460px;
+  border: 5px solid black;
+}
+
+.row div {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  background-color: #50B9B8;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
