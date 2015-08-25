@@ -35,10 +35,6 @@ var lines = [
   [ 3, 5, 7 ]
 ];
 
-function clear() {
-   document.getElementById('form').reset();
-}
-
 function checkForVictory() {
   lines.forEach(function(line) {
     var $cell1 = $('#cell-' + line[0]),
