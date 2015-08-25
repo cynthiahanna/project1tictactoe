@@ -1,7 +1,6 @@
 'use strict';
 
 // jshint devel:true
-console.log('\'Allo \'Allo!');
 
 $(function() {
 
@@ -34,6 +33,11 @@ var lines = [
   [ 1, 5, 9 ],
   [ 3, 5, 7 ]
 ];
+
+// rest of your code
+$(function resetBoard() {
+    document.getElementsByTag('form').innerHTML = '';
+ });
 
 function checkForVictory() {
   lines.forEach(function(line) {
