@@ -34,11 +34,6 @@ var lines = [
   [ 3, 5, 7 ]
 ];
 
-// rest of your code
-$(function resetBoard() {
-    document.getElementsByTag('form').innerHTML = '';
- });
-
 function checkForVictory() {
   lines.forEach(function(line) {
     var $cell1 = $('#cell-' + line[0]),
@@ -55,3 +50,10 @@ function checkForVictory() {
     }
   });
  }
+
+ // rest of your code
+$(function resetBoard() {
+    document.getElementById('cell-*').innerHTML = '';
+    // console.log(board);
+ });
+
