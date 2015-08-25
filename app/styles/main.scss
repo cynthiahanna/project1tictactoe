@@ -12,9 +12,21 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 }
 
 /* Space out content a bit */
+
+ul {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: phosphate;
+}
+
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 100px;
+  color: black;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -30,11 +42,13 @@ body {
   border-bottom: 1px solid #e5e5e5;
 
   /* Make the masthead heading the same height as the navigation */
-  h3 {
+  h1 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+    font-size: 60px;
+    text-align: left;
   }
 }
 
@@ -54,7 +68,7 @@ body {
 }*/
 
 .container section {
-  height: 460px;
+  height: auto;
   width: 460px;
   border: 5px solid black;
 }
@@ -62,22 +76,43 @@ body {
 .row div {
   height: 150px;
   width: 150px;
-  text-align: center;
   background-color: #50B9B8;
+  opacity: 0.75;
   border: 2px solid black;
-  padding: 15px;
-  margin: 0px 0px 0px 0px;
+  float: left;
+}
+
+div.clear {
+    clear:both;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  .btn {
+  /*h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 40px;
+    padding-bottom: 19px;
+    font-size: 30px;
+    text-align: left;
+  }*/
+  /*.btn {
     font-size: 21px;
     padding: 14px 24px;
+  }*/
+
+  form {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+    font-size: 20px;
+    text-align: right;
   }
 }
+
 
 /* Supporting marketing content */
 .marketing {
@@ -90,7 +125,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 650px;
   }
 
   /* Remove the padding we set earlier */

@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
@@ -27,53 +27,59 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
+          <!-- <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Contact</a></li> -->
         </ul>
-        <h3 class="text-muted">project_1</h3>
+        <h1>Tic Tac Toe</h1>
       </div>
 
       <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
+        <!-- <h3 class="text-muted">Score</h3> -->
+
+        <form>
+          <button onClick="clear()">Play Again</button>
+        </form>
+
+     <section class = "container">
+      <div class = "row" id="board">
+
+          <div id="cell-1" class="col-lg-3"></div>
+
+          <div id="cell-2" class="col-lg-3"></div>
+
+          <div id="cell-3" class="col-lg-3"></div>
+
+          <div id="cell-4" class="col-lg-3"></div>
+
+          <div id="cell-5" class="col-lg-3"></div>
+
+          <div id="cell-6" class="col-lg-3"></div>
+
+          <div id="cell-7" class="col-lg-3"></div>
+
+          <div id="cell-8" class="col-lg-3"></div>
+
+          <div id="cell-9" class="col-lg-3"></div>
+      </div>
+
+      </div>
+     </section>
+
+
+        <!-- <p class="lead">Always a pleasure scaffolding your apps.</p> -->
+        <!-- <p><a class="btn btn-lg btn-success" href="#">Reset <span class="glyphicon glyphicon-ok"></span></a></p> -->
+      </div>
+
       </div>
 
 
-    <section class = "container">
-      <div class="row">
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-          <div class="col-lg-6"></div>
-
-
-        </div>
-      </div>
-    </section>
-
-      <div class="footer">
+      <!-- <div class="footer">
         <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
+      </div> -->
     </div>
 
 
