@@ -1,3 +1,5 @@
+'use strict';
+
 // jshint devel:true
 console.log('\'Allo \'Allo!');
 
@@ -33,17 +35,23 @@ var lines = [
   [ 3, 5, 7 ]
 ];
 
+function clear() {
+   document.getElementById('form').reset();
+}
+
 function checkForVictory() {
   lines.forEach(function(line) {
     var $cell1 = $('#cell-' + line[0]),
         $cell2 = $('#cell-' + line[1]),
         $cell3 = $('#cell-' + line[2]);
 
-    if ($cell1.text() === '') return;
+    if ($cell1.text() === '') {
+      return;
+    }
 
     if ($cell1.text() === $cell2.text() &&
         $cell2.text() === $cell3.text()) {
-      return alert($cell1.text() + ' is the winner!');
+        alert($cell1.text() + ' is the winner!');
     }
   });
  }
