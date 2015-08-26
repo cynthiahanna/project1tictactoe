@@ -3,11 +3,11 @@
 <h3>Description</h3>
   <p>For my first WDI project, I built a Tic Tac Toe game, which had the follow core requirements:</p>
 
-    <ol>
-      <li>Use HTML, CSS/SASS, JavaScript/jQuery with DOM manipulation</li>
-      <li>Use Yeoman, Grunt, Bower</li>
-      <li>Must be deployed</li>
-    </ol>
+      1. Use HTML, CSS/SASS, JavaScript/jQuery with DOM manipulation
+
+      2. Use Yeoman, Grunt, Bower
+
+      3. Must be deployed
 
 <h3>Tic Tac Toe Game Mock-up/Wireframe</h3>
 
