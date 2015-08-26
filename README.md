@@ -8,8 +8,12 @@
 
   <ul>
     <li>Link to <a href="http://biographer-aaron-40083.bitballoon.com/">Tic Tac Toe on BitBalloon.</a></li>
+  </ul>
 
+  <ul>
     <li>Link to <a href="https://github.com/cynthiahanna/project1tictactoe/">Tic Tac Toe GitHub.</a></li>
+  </ul>
 
+  <ul>
     <li>Link to <a href="https://trello.com/b/pJQ4vvzX/tic-tac-toe/">Tic Tac Toe Trello board.</a></li>
   </ul>
