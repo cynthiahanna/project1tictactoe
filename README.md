@@ -1,5 +1,5 @@
 <html>
 
-<img src="/ga/wdi/projects/project_1/app/images/tictactoewireframe.jpg" style="max-width:100%;">
+<img src="https://github.com/cynthiahanna/project1tictactoe/blob/master/app/images/tictactoewireframe.jpg" style="max-width:100%;">
 
 </html>
