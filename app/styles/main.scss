@@ -21,6 +21,13 @@ h1 {
   text-align: left;
 }
 
+h6 {
+  margin-top: 0;
+  padding-bottom: 0;
+  font-size: 25px;
+  text-align: right;
+}
+
 .container section {
   height: auto;
   width: 460px;
@@ -46,13 +53,6 @@ h3 {
   font-size: 30px;
   text-align: left;
 }
-
-form {
-  margin-top: 0;
-  padding-bottom: 30px;
-  font-size: 20px;
-  text-align: right;
-  }
 }
 
 @media screen and (min-width: 768px) {

@@ -50,10 +50,3 @@ function checkForVictory() {
     }
   });
  }
-
- // rest of your code
-$(function resetBoard() {
-    document.getElementById('cell-*').innerHTML = '';
-    // console.log(board);
- });
-
