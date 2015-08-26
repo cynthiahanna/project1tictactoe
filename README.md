@@ -1,6 +1,6 @@
-<h2>Cynthia's Tic Tac Toe Game (Project 1)</h2>
+<h2>Cynthia's Tic Tac Toe Game</h2>
 
-<h3>Description</h3>
+<h3>Project 1 Description</h3>
   <p>For my first WDI project, I built a Tic Tac Toe game, which had the follow core requirements:</p>
 
       1. Use HTML, CSS/SASS, JavaScript/jQuery with DOM manipulation
